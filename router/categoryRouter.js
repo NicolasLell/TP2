@@ -5,10 +5,10 @@ const categoryRouter = Router();
 
 const controller = new CategoryController();
 
-categoryRoutes.get("/", controller.getAllCategories); 
-categoryRoutes.get("/:id", controller.getCategoryById); 
-categoryRoutes.post("/", controller.createCategory); 
-categoryRoutes.put("/:id", controller.updateCategory); 
-categoryRoutes.delete("/:id", controller.deleteCategory); 
+categoryRouter.get("/", controller.getAllCategories); 
+categoryRouter.get("/:id", controller.getCategoryById); 
+categoryRouter.post("/", controller.createCategory); 
+categoryRouter.put("/:id", controller.updateCategory); 
+categoryRouter.delete("/:id", controller.deleteCategory); 
 
 export default categoryRouter;
