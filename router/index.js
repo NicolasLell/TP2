@@ -1,10 +1,10 @@
 import { Router } from "express";
-import productsRouter from "./productsRouter.js";
-import categoryRouter from "./categoryRouter.js";
+import productsRoutes from "./productsRoutes.js";
+import categoryRoutes from "./categoryRoutes.js";
 
 const routes = Router();
 
-routes.use("/products", productsRouter); 
-routes.use("/categories", categoryRouter); 
+routes.use("/products", productsRoutes); 
+routes.use("/categories", categoryRoutes); 
 
 export default routes;
