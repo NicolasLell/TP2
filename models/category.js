@@ -22,4 +22,4 @@ Category.init(
     }
 );
 
-module.exports = Category;
+export default Category;

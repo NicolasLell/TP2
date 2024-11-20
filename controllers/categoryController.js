@@ -1,4 +1,4 @@
-import CategoryService from "../services/CategoryService.js";
+import categoryService from "../service/categoryService.js";
 
 class categoryController {
   service = new categoryService();

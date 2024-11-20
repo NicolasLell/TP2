@@ -29,4 +29,4 @@ Product.init(
         modelName: "Product",
       }
 )
-module.exports = Product
+export default Product;

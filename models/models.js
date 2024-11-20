@@ -1,7 +1,7 @@
-import product from "./product";
-import category from "./category";
+import Product from "./product.js";
+import Category from "./category.js";
 
-product.belongsTo(category)
-category.hasMany(product)
+Product.belongsTo(Product)
+Category.hasMany(Category)
 
-export {product, category}
+export {Product, Category}
