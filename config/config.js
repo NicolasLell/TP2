@@ -1,5 +1,7 @@
 
+import dotenv from "dotenv";
 
+dotenv.config();
 const SERVER_PORT = process.env.SERVER_PORT || 3000;
 const DB_NAME = process.env.DB_NAME;
 const DB_USER = process.env.DB_USER;
